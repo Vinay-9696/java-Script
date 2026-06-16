@@ -1,0 +1,22 @@
+{
+  "name": "JavaScript Node Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "wayou.vscode-todo-highlight"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern",
+        "editor.fontSize": 20,
+        "terminal.integrated.fontSize": 16,
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+
+  "postCreateCommand": "node -v && npm -v"
+}
