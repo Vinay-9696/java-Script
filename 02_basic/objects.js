@@ -34,5 +34,10 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
+
+const Arr1=[1,2,3,4,5,6]
+const Arr2=[7,8,9,7,8,9]
+console.log([...Arr1,...Arr2]);// THIS IS USED FOR ADDING TWO OR MORE THAN TWO ARRAY
+// ... THIS IS THE SPREAD OPRATOR IT IS USED IN ARRAY AND OBJECTS.
